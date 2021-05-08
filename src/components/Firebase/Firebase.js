@@ -1,18 +1,19 @@
 import firebase from 'firebase';
 
 const firebaseApp = firebase.initializeApp({
-   
-    
-        apiKey: "AIzaSyDjmiv7P4D5l3eoIOetDerIKnmUmg8XQfg",
-        authDomain: "facebookmessenger-ec756.firebaseapp.com",
-        projectId: "facebookmessenger-ec756",
-        storageBucket: "facebookmessenger-ec756.appspot.com",
-        messagingSenderId: "413292405477",
-        appId: "1:413292405477:web:0e0bb0bf5d9d9bc92aea0c",
-        measurementId: "G-52R919H0HE"
+
+  apiKey: "YOUR_API_KEY",
+  AuthDomain: "YOUR_PROJECT_AUTH_DOMAIN",
+  databaseURL: "YOUR_PROJECT_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_PROJECT_MESSAGING_SENDER_ID",
+  appId: "YOUR_PROJECT_APP_ID"
 
 });
 
 const db = firebaseApp.firestore();
 
 export default db;
+
+
