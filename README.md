@@ -6,4 +6,4 @@ This is a messenger clone.You can comminicate to other at realtime
 
 # ⚡ LIVE  
 
- * <a href="/">To check out the live demo of this app</a></br> </br> 
+ * <a href="#">To check out the live demo of this app</a></br> </br> 
