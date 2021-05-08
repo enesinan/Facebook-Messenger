@@ -25,7 +25,8 @@ This is a messenger clone.You can comminicate to other at realtime 💬
 
 
 # CONTRIBUTION
-
+ 
+ feel free to contribute by adding new templates to this project.
  
 
 # Getting Started with Create React App
