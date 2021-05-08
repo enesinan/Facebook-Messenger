@@ -1,0 +1,116 @@
+.app {
+    text-align: center;
+}
+
+.app__header {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+
+.app__messageContainer {
+    margin-bottom: 100px !important;
+    margin-top: 140px !important;
+}
+
+.app__form {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    background-color: #e9e9eb;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+}
+
+.app__formControl {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding-right: 20px !important;
+}
+
+.app__input {
+    flex: 1;
+}
+
+.app__button {
+    flex: 0;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.logo {
+    height: 46px;
+    margin-right: 10px;
+}
+
+.app-image {
+   display: block;
+   position: absolute;
+   margin-top: -4em;
+   margin-left: 70%;
+}
+.app-mytitle {
+    width: fit-content;
+    margin-left: 40%;
+    color: dodgerblue;
+}
+.app-welcome {
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 768px) {
+    .app-mytitle {
+        margin-left: 10%;
+        width: fit-content;
+        font-size:larger;
+    }
+    .app-image {
+       margin-top: -2em;
+       margin-left: 80%;
+       width: 3em;
+    }
+    .app-welcome {
+        margin-right: 5em;
+    }
+  }
+ 
+  
+
+@media only screen 
+and (min-width: 769px) 
+and (max-height: 1200px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+  .app-mytitle {
+      margin-left: 2em;
+      display: none;
+  }
+  .app-welcome {
+      margin-left: 2em;
+      display: none;
+  }
+  .app-image {
+      display: none;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1280px) {
+    .app-image {
+        margin-left: 90%;
+    }
+}
