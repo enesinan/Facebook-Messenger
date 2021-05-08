@@ -13,8 +13,11 @@ This is a messenger clone.You can comminicate to other at realtime 💬
 * We used ReactJS, Material UI, Firebase, Firestore Database
 
 👉 Build a React Messenger App 💻
+
 👉 Deploy a React app with Firebase Hosting 🌐
+
 👉 Server-less cloud functions to process each of the messages sent 🚀
+
 👉 Real-time database with Firebase’s Firestore 🔥
 
 
