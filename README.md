@@ -10,7 +10,7 @@ This is a facebook messenger clone.You can comminicate to other at realtime 💬
 
 # ABOUT 
  
-👉 We used ReactJS, Material UI, Firebase, Firestore Database
+👉 We used ReactJS, Material UI, Firebase, Firestore Database ⚛️
 
 👉 Build a React Messenger App 💻
 
