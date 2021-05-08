@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('./assets/fonts/Roboto-Regular.ttf') format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alignLeft {
+    text-align: left !important;
+}
+
+.bold {
+    font-weight: bold;
+}
